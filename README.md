@@ -59,7 +59,13 @@ uv sync
 
 ### 3. Настройка переменных окружения
 
-Создайте файл `.env` в корне проекта:
+Создайте файл `.env` в корне проекта на основе файла `env.example`:
+
+```bash
+cp env.example .env
+```
+
+Заполните файл `.env` реальными значениями:
 
 ```env
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
