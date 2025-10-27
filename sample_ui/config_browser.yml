@@ -1,0 +1,6 @@
+browserType: "chromium"
+context:
+  viewport: {"width": 1980, "height": 1200}
+launch:
+  channel: "msedge"
+  headless: False
